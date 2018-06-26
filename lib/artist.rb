@@ -1,1 +1,5 @@
-class assert_in
+class Artist
+
+  def initializ
+
+end
