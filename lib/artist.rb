@@ -1,5 +1,6 @@
 class Artist
 
-  def initializ
+  def initialize()
+  end
 
 end
