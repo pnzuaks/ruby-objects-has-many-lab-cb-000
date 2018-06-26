@@ -20,10 +20,10 @@ class Author
     @posts
   end
   
-  def add_song_by_name(song_name)
-    song = Song.new(song_name)
-    @songs << song
-    song.artist = self
+  def add_post_by_name(post_name)
+    post = Post.new(post_name)
+    @posts << post
+    post.author = self
   end
 
   
